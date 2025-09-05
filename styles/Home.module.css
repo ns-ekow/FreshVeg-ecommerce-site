@@ -1,0 +1,207 @@
+.hero{
+  height: 100vh;
+}
+.heroImage{
+  width: 650px;
+  height: 450px;
+  
+}
+
+.heroInner{
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+}
+
+.productSection{
+  background: #EDF2EE;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 3rem;
+}
+
+.features{
+  width: 70vw;
+  display: flex;
+  margin: -80px auto 20px auto;
+  /* border: 1px solid grey; */
+  border-radius: 8px;
+  
+}
+
+.feature{
+  padding: 1rem;
+  background: white;
+  border: 1px solid grey;
+  
+}
+
+.featureIcon{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: white;
+  border: 1px solid grey;
+  margin: 0 auto;
+}
+
+.feature:first-of-type{
+  border-radius: 8px 0 0 8px;
+}
+
+.feature:last-of-type{
+  border-radius: 0 8px 8px 0;
+}
+
+.feature:hover{
+  background: #00b207;
+  color: white;
+  
+}
+
+.navigation{display: flex; gap: 1.5rem;}
+
+.products{
+  background: white;
+  width: 90%;
+  display:flex;
+  flex-wrap:wrap;
+  gap: 0.5rem;
+  align-content: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.ads{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.adsInner{
+  display: flex;
+  gap: 1rem;
+}
+
+.ad1, .ad2, .ad3{
+  padding: 1rem;
+  width: 324px;
+  height: 200px;
+  background: blue;
+  border-radius: 8px;
+  color: white;
+  margin: 3rem 0;
+}
+
+.ad1{
+  background-image: url('../public/FreshVegs/milk.png');
+  background-size: cover;
+}
+.ad2{
+  background-image: url('../public/FreshVegs/coke.png');
+  background-size: cover;
+  
+}
+.ad3{
+  background-image: url('../public/FreshVegs/bkreakfasts.png');
+  background-size: cover;
+}
+
+.ad2Text{
+  margin-left: 50%;
+}
+
+.offer{
+  height: 350px;
+  background: #EDF2EE;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+
+
+.testimonials{
+  height: 842px;
+  background: #EDF2EE;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video{
+  width: 1168px;
+  height: 748px;
+  background: pink;
+  border-radius: 16px;
+  
+}
+
+.stats{
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+
+  
+}
+
+.stat{
+  min-width: 250px;
+  padding: 1rem;
+  background: #181616;
+  color: white;
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
+}
+
+.news{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newsInner{
+  display: flex;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.navItem{
+  color: gray;
+  font-size: 14px
+}
+
+.navItem:hover{
+  color: #00b207;
+}
+
+.countdown{
+  display: flex ;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.countdownItem{
+  width: 5rem;
+  height: 5rem;
+  background: white;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.featuredProducts{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}

@@ -1,0 +1,61 @@
+.footer{
+  height: 700px;
+  display: grid;
+  grid-template-rows: 200px 500px;
+  position: relative;
+  bottom: 0;
+  
+}
+
+.sub{
+  width: 100%; 
+  height: 100%;
+  background: #ededed ;
+  display: grid;
+  grid-template-rows: 40% 60%;
+  
+  
+}
+
+.top{
+  border-bottom: 1px solid gray;
+}
+
+.bottom{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.main{
+  width: 100%;
+  height: 100%; 
+  background: #1c5461;
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+}
+
+.middle{
+  display: grid;
+  grid-template-rows: 70% 30%;
+  padding: 2rem;
+}
+
+.midBottom{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+  border-top: 1px solid green;
+}
+
+.input{
+  height: 58px;
+  width: 24rem;
+  border: none;
+  border-radius: 32px;
+  padding: 0 1rem;
+  margin-right:-48px;
+  
+}
+
